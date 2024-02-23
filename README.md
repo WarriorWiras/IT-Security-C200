@@ -14,13 +14,21 @@ Cool4Guys is a company dedicated to interactive and digital entertainment. And i
 ## Project Specification / Requirements
 
 → Kali Linux targeting a victim machine running on Linux or/and Ubuntu
+
 → Use of any tool to perform an attack using Metasploit, Bash/Shell code, etc
+
 → Use Website & OS exploitations to get root and compromise the system
+
 → Exploiting the AD server via Zerologon & Kerberos Golden ticket
+
 → Exploit Website (File upload, XSS, XSRF, SQL injection, etc)
+
 → Buffer overflow, Dirty Cow
+
 → Privilege escalation
+
 → Pivoting
+
 → Misconfiguration
 
 All of this made possible by using Virtual Machines
