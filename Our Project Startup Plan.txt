@@ -1,0 +1,42 @@
+Network 
+
+Requirement:
+Microsoft Windows XP/7/8/10
+Server 2003/2008/2012/2016 
+Linux/Fedora/etc. 
+
+
+Cannot do Metaspoilable.
+
+Must use VM for server 
+
+Web Server what OS = Ubuntu 
+Version: 
+
+AD Server OS = Windows  
+Version: 
+
+
+
+HR workstation(host) = windows
+Version:
+
+R&D workstation(host insider(low) ) = ubuntu
+
+File Server = windows 
+Version:
+
+
+One attack is from the insider (host)
+insider not happy, want change pay, knows that the infomation is in the HR workstation
+Path: His host -> AD -> HR workstation. 
+
+One attack is from the web (Web server)
+Path: Attacker find that this website is insecure(web vuln) -> to get root shell of the Web Server -> File server (To steal the newest next release)
+
+
+Company: Cool4guys 
+Brief desc: Software company 
+
+login member get discount, voucher, and patch announment 
+

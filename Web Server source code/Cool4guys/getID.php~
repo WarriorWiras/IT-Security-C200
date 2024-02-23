@@ -1,0 +1,21 @@
+<?php
+
+include ("dbFunction.php");
+
+$username = $_GET['username'];
+$password = $_GET['password'];
+
+
+$query = "SELECT * FROM users WHERE username = '$username' AND password='$password'";
+
+$result = mysqli_query($link, $query) or die(mysqli_error($link));
+
+ if (!empty($row)) {
+		$id = $row['user_id'];
+
+}
+echo $id;
+?>
+
+
+

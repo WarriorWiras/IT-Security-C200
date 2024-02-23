@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+            table {
+                padding: 10px;
+                border: 1px solid black;
+                border-collapse: collapse;
+                border-spacing: 20px;
+            }
+        </style>
+    <header>
+	<?php include("include/navigation.php");?>
+    </header>
+    </head>
+    <body>
+        <h2>Cool 4 Guys Account Sign-up</h2>
+        <form method="POST" action="doRegister.php">
+            <br/><br/>
+                    <label>Username:</label></td>
+                    <input type="text" name="username" /></td>
+        <br/><br/>
+                    <label>Password:</label></td>
+                    <input type="text" name="password" /></td>
+        <br/><br/>
+            <input type="submit" value="Register Account" name="submit"/>
+        </form>
+    </body>
+	<?php include("include/footer.php");?>
+</html>
+
